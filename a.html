@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carta ♥</title>
+    <title>Carta de Amor</title>
     <style>
         body {
             margin: 0;
@@ -75,6 +75,44 @@
             from { opacity: 0; transform: translateY(-20px); }
             to { opacity: 1; transform: translateY(0); }
         }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .letter {
+                padding: 15px 20px;
+            }
+            .header {
+                font-size: 1.5em;
+            }
+            .content {
+                font-size: 1em;
+            }
+            .signature {
+                font-size: 1em;
+            }
+            .heart {
+                font-size: 2em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .letter {
+                width: 95%;
+                padding: 10px 15px;
+            }
+            .header {
+                font-size: 1.2em;
+            }
+            .content {
+                font-size: 0.9em;
+            }
+            .signature {
+                font-size: 0.9em;
+            }
+            .heart {
+                font-size: 1.8em;
+            }
+        }
     </style>
 </head>
 <body>
@@ -100,7 +138,7 @@
             Con todo mi cariño y gratitud,<br>
             <strong>Braian</strong>
         </div>
-        <div class="heart">♥</div>
-    </div>
-</body>
+        <div class="heart">
+
+
 </html>
