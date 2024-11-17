@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de Amor</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom, #FFEFBA, #FFFFFF);
+            font-family: 'Georgia', serif;
+        }
+        .letter {
+            width: 90%;
+            max-width: 600px;
+            background: #fff;
+            padding: 20px 30px;
+            border: 2px solid #F08080;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            position: relative;
+            animation: fadeIn 2s ease;
+        }
+        .letter:before, .letter:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 10px;
+            background: #F08080;
+            top: 0;
+            left: 0;
+            border-radius: 15px 15px 0 0;
+        }
+        .letter:after {
+            top: unset;
+            bottom: 0;
+            border-radius: 0 0 15px 15px;
+        }
+        .header {
+            text-align: center;
+            font-size: 1.8em;
+            color: #B22222;
+            margin-bottom: 20px;
+        }
+        .content {
+            font-size: 1.2em;
+            color: #333;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .signature {
+            margin-top: 30px;
+            text-align: right;
+            font-style: italic;
+            font-size: 1.2em;
+            color: #B22222;
+        }
+        .heart {
+            font-size: 3em;
+            color: #FF1493;
+            text-align: center;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .letter {
+                padding: 15px 20px;
+            }
+            .header {
+                font-size: 1.5em;
+            }
+            .content {
+                font-size: 1em;
+            }
+            .signature {
+                font-size: 1em;
+            }
+            .heart {
+                font-size: 2em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .letter {
+                width: 95%;
+                padding: 10px 15px;
+            }
+            .header {
+                font-size: 1.2em;
+            }
+            .content {
+                font-size: 0.9em;
+            }
+            .signature {
+                font-size: 0.9em;
+            }
+            .heart {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="letter">
+        <div class="header">Querida Giuli</div>
+        <div class="content">
+            Desde que entraste en mi vida, cada día ha sido más brillante. La manera en que haces que todo a tu alrededor cobre vida es realmente especial. 
+            Cada momento que paso contigo es un tesoro que atesoro profundamente. No es solo tu risa, tu sonrisa o tu pasión por la música, 
+            sino la forma en que haces que cada instante se sienta significativo.<br><br>
+
+            A veces, me resulta difícil poner en palabras lo que siento, pero quiero que sepas cuánto te aprecio y valoro. 
+            Eres una persona increíblemente fuerte y bondadosa, y tu valentía me inspira cada día. Tu luz y tu alegría son contagiosas, 
+            y cada día me encuentro más agradecido de tenerte en mi vida.<br><br>
+
+            Sé que la vida puede ser complicada y a veces nos enfrentamos a desafíos que nos hacen sentir solos. 
+            Pero quiero que sepas que nunca estás sola. Estoy aquí para ti, en cada paso del camino, dispuesto a apoyarte y ser tu refugio. 
+            Tu felicidad es muy importante para mí, y haré todo lo que esté en mi poder para asegurarte de que siempre te sientas amada y apreciada.<br><br>
+
+            Después del recital, me encantaría seguir disfrutando de tu compañía. ¿Qué te parece si vamos a tomar algo a [nombre del lugar] 
+            y continuamos disfrutando de esta noche juntos? Me encantaría pasar más tiempo contigo y crear recuerdos inolvidables.<br><br>
+        </div>
+        <div class="signature">
+            Con todo mi cariño y gratitud,<br>
+            <strong>Braian</strong>
+        </div>
+        <div class="heart">
+
+
+</html>
